@@ -11,7 +11,7 @@
   "scripts": {
     "vuepress-test:dev": "vuepress dev vuepress-test",
     "vuepress-test:build": "vuepress build vuepress-test",
-	"build": "export NODE_OPTIONS=--openssl-legacy-provide && vuepress build"
+	"build": "vuepress build"
   },
   "license": "MIT",
   "devDependencies": {
