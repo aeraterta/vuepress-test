@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/test",
+  "scripts": {
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
