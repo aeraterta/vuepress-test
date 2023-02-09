@@ -21,4 +21,4 @@ jobs:
       with:
         node-version: "18.x"
     - run: npm install
-    - run: npm run vuepress build  --no-cache
+    - run: npm run vuepress-test:build
