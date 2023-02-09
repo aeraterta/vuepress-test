@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "vuepress-test",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,10 +7,10 @@
     "name": "",
     "email": ""
   },
-  "repository": "/test",
+  "repository": "/vuepress-test",
   "scripts": {
-    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build src"
+    "vuepress-test:dev": "vuepress dev vuepress-test",
+    "vuepress-test:build": "vuepress build vuepress-test --no-cache"
   },
   "license": "MIT",
   "devDependencies": {
