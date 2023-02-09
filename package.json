@@ -10,7 +10,7 @@
   "repository": "/vuepress-test",
   "scripts": {
     "vuepress-test:dev": "vuepress dev vuepress-test",
-    "vuepress-test:build": "vuepress build vuepress-test --no-cache"
+    "vuepress-test:build": "vuepress build vuepress-test"
   },
   "license": "MIT",
   "devDependencies": {
