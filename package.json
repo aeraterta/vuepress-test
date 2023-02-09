@@ -10,7 +10,8 @@
   "repository": "/vuepress-test",
   "scripts": {
     "vuepress-test:dev": "vuepress dev vuepress-test",
-    "vuepress-test:build": "vuepress build"
+    "vuepress-test:build": "vuepress build vuepress-test",
+	"build": "vuepress build --openssl-legacy-provider start"
   },
   "license": "MIT",
   "devDependencies": {
